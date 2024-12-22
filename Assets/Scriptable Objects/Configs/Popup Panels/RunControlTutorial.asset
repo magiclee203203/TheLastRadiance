@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184f2c969d294f5787736ec9b5fe3eb7, type: 3}
+  m_Name: RunControlTutorial
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 0bdd92b2e616955469cddee378d0d240, type: 2}
+    - {fileID: 11400000, guid: 673b9bcb403558c45a5f9d35a7d546ef, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: TasksAfterClose
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[ICommand, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|ShowPopupCommand, Assembly-CSharp
+    - Name: _showPopupEvent
+      Entry: 10
+      Data: 0
+    - Name: _config
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Title: CONTROL
+  Image: {fileID: 21300000, guid: dc62d037f04d01348bb9d23b8f26a0ac, type: 3}
+  ImageWidth: 300
+  ImageHeight: 300
+  Tutorial: PRESS <color=#FFD700>SHIFT</color> TO RUN
+  SFX: {fileID: 11400000, guid: 5555d1276cf3d8145b9747cf695ea0f9, type: 2}

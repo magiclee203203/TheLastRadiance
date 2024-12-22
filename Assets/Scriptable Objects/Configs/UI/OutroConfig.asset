@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78eb532406134b1a9abef5d865a1d958, type: 3}
+  m_Name: OutroConfig
+  m_EditorClassIdentifier: 
+  Content: 'The journey ahead is full of unknowns. Can the scientist overcome the
+    challenges and find the Seed of Light?
+
+    <align=center>To Be Continued...?
+    Maybe ^_^</align>
+
+    <align=center>Thank you very much for playing my game</align><?IntroContentEndAppearing>'

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184f2c969d294f5787736ec9b5fe3eb7, type: 3}
+  m_Name: StudyGravityAbility
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 0bdd92b2e616955469cddee378d0d240, type: 2}
+    - {fileID: 11400000, guid: 62526dad4e3ef2c4f84616ed7d031696, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: TasksAfterClose
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[ICommand, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|ShowPopupCommand, Assembly-CSharp
+    - Name: _showPopupEvent
+      Entry: 10
+      Data: 0
+    - Name: _config
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Title: YOU CAN CHANGE GRAVITY
+  Image: {fileID: 21300000, guid: e1342418cc82f1b4f85ae9bc639a2fa6, type: 3}
+  ImageWidth: 300
+  ImageHeight: 300
+  Tutorial: <size=-11><color=#FFD700>HOLD SPACE</color> TO LIFT A OBJECT; <color=#FFD700>RELEASE</color>
+    TO DROP IT</size>
+  SFX: {fileID: 11400000, guid: dfe3691d29cb9324fab654290c3af865, type: 2}

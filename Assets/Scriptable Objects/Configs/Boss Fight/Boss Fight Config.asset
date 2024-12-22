@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ed3a32c2754f9a80d95a28b41d03a6, type: 3}
+  m_Name: Boss Fight Config
+  m_EditorClassIdentifier: 
+  BossFightAI: {fileID: 11400000, guid: e73146e8b98672243aeec0f6afe4d92c, type: 2}
+  IdleStateAnimation: {fileID: 11400000, guid: 72e3bba4c45b02d409d597b0be93bca1, type: 2}
+  AimAnimation: {fileID: 11400000, guid: 729398f13d94b314e880991b3324a1bc, type: 2}
+  ShootAnimation: {fileID: 11400000, guid: cab80228b1bf16c40a27065ff0c09c69, type: 2}
+  BeHitAnimation: {fileID: 11400000, guid: 442e4436fc78ae2419d295113878fae0, type: 2}
+  StandUpAnimation: {fileID: 11400000, guid: 2d021f511d716174d82a8c02ab18fc27, type: 2}
+  DefeatedAnimation: {fileID: 11400000, guid: 752e11b8b4fed5643a894cd43f7f7c45, type: 2}
+  TurretsRandomPool:
+  - {fileID: 4412449611431261759, guid: f7f83dc192da39c4cac284a4b4cd3a26, type: 3}
+  - {fileID: 311778306498359405, guid: 39248283dcf8b034da5a83d5fd58fb78, type: 3}
+  - {fileID: 3293533369816611583, guid: 8155fd1934a514e44a23dd056ef413ca, type: 3}
+  TurretsSpawnPoints:
+  - {fileID: 4669744023259532262, guid: 5bedf4f2d5927224eb353dca3e100714, type: 3}
+  - {fileID: 4073602443896404848, guid: b18a5d13436d10a4d8b5645b0f728336, type: 3}
+  - {fileID: 4488374207425049854, guid: 5bf223761dd78554aa6558f87b5ee490, type: 3}
+  - {fileID: 3831272129403812587, guid: 9c298d52c610e294abe787ef15ab83c6, type: 3}
